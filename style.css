@@ -49,3 +49,29 @@ span{
     background-position: right;
 }
 
+.flexible-area{
+    display: flex;
+    
+}
+
+.flexible-area div{
+    box-shadow: 10px 20px 30px gray;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: gray;
+}
+
+.experience-area h3{
+    color: orange;
+}
+
+#box-area{
+    border-left: 7px solid;
+    border-image-source: linear-gradient(blue, cyan);
+    border-radius: 10px;
+    border-image-slice: 1;
+}
