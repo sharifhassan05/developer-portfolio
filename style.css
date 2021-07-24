@@ -56,6 +56,13 @@ span{
 
 .flexible-area div{
     box-shadow: 10px 20px 30px gray;
+    width: 600px;
+    margin: 5px auto;
+    padding-top: 5px;
+}
+
+.flexible-area div h1{
+    font-size: 40px;
 }
 
 .experience-area{
@@ -63,15 +70,23 @@ span{
     background-repeat: no-repeat;
     background-position: left;
     box-shadow: gray;
+    margin-top: 60px;
 }
 
 .experience-area h3{
     color: orange;
 }
 
-#box-area{
+#baby-web-area{
     border-left: 7px solid;
     border-image-source: linear-gradient(blue, cyan);
+    border-radius: 10px;
+    border-image-slice: 1;
+}
+
+#fullstack-area{
+    border-left: 7px solid;
+    border-image-source: linear-gradient(orange, tomato);
     border-radius: 10px;
     border-image-slice: 1;
 }
