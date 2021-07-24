@@ -90,3 +90,8 @@ span{
     border-radius: 10px;
     border-image-slice: 1;
 }
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
