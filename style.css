@@ -4,8 +4,8 @@ body{
 }
 
 section{
-    height: 500px;
-    display: block;
+    height: 650px;
+    padding-bottom: 30px;
 }
 
 .top-bg{
@@ -34,10 +34,18 @@ span{
 .half-width{
     width: 50%;
     float: left;
-    margin: 5%;
-    padding: 2%;
+    margin: 20px;
+    padding: 40px;
 }
 
 .half-width img{
-    width: 500px;
+    width: 600px;
 }
+
+.dream-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
